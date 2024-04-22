@@ -1,0 +1,21 @@
+{
+  "id": "nourayman10102002/asr-fastwhisper-deployment",
+  "id_no": 55015440,
+  "title": "ASR-FastWhisper [deployment]",
+  "code_file": "asr-fastwhisper-deployment.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "nourayman10102002/youtube-links"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

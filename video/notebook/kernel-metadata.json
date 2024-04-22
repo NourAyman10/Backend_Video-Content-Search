@@ -1,0 +1,22 @@
+{
+  "id": "ruqaiyahmohammed/refvos-deployment",
+  "id_no": 54894752,
+  "title": "refvos [deployment]",
+  "code_file": "refvos-deployment.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [
+    "gpu"
+  ],
+  "dataset_sources": [
+    "ruqaiyahmohammed/refvos-yt",
+    "nourayman10102002/youtube-links"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}
