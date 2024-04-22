@@ -7,6 +7,15 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+/__pycache__
+/venv
+/helper_drive/__pycache__
+/audio/input/
+/audio/output/
+/video/input/
+/video/output/
+/helper_drive/service_account.json
+
 .Python
 build/
 develop-eggs/

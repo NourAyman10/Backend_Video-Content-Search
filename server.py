@@ -10,12 +10,14 @@ from helper_drive.helper_drive import get_preview_link
 
 from flask import Flask, request
 
+output_preview = "C:/Users/noura/OneDrive/Desktop/GP-Project/Backend-Video-Content-Search/video/output/output_video.mp4"
+
 # for audio
-audio_project_path = "C:/Users/noura/OneDrive/Desktop/GP-Project/Video-Content-Search-Backend/audio"
+audio_project_path = "C:/Users/noura/OneDrive/Desktop/GP-Project/Backend-Video-Content-Search/audio"
 audio_nb_id = "nourayman10102002/asr-fastwhisper-deployment"
 
 # for video
-video_project_path = "C:/Users/noura/OneDrive/Desktop/GP-Project/Video-Content-Search-Backend/video"
+video_project_path = "C:/Users/noura/OneDrive/Desktop/GP-Project/Backend-Video-Content-Search-Backend/video"
 video_nb_id = "ruqaiyahmohammed/refvos-deployment"
 
 app = Flask(__name__)
@@ -58,7 +60,7 @@ def vos():
         notebookStatusComplete = str(get_notebook_status(video_nb_id)).__contains__("complete")
         get_notebook_output(video_project_path, video_nb_id)
         
-        preview_link = get_preview_link("C:/Users/noura/OneDrive/Desktop/GP-Project/Video-Content-Search-Backend/video/output/output_video.mp4")
+        preview_link = get_preview_link(output_preview)
         videoPreviewLink = preview_link
         
         timestamps = []
